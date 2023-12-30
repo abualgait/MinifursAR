@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MinifursAr</string>
+
+    <string name="dashboard">Home</string>
+    <string name="cart">Cart</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+</resources>

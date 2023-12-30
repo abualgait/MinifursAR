@@ -1,0 +1,46 @@
+[versions]
+agp = "8.2.0"
+org-jetbrains-kotlin-android = "1.9.21"
+core-ktx = "1.12.0"
+arsceneview = "0.10.2"
+
+lifecycle-runtime-ktx = "2.6.2"
+activity-compose = "1.8.1"
+compose-bom = "2023.10.01"
+compose-version = "1.6.0-beta02"
+navigation = "2.7.5"
+
+ksp = "1.9.21-1.0.15"
+secret-gradle-plugin = "2.0.1"
+constraintlayout-compose = "1.1.0-alpha13"
+
+[libraries]
+
+sceneview-ar = { module = "io.github.sceneview:arsceneview", version.ref = "arsceneview" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+
+lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigation" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+material = { group = "androidx.compose.material", name = "material", version.ref = "compose-version" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended" }
+androidx-constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintlayout-compose" }
+
+
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+org-jetbrains-kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "org-jetbrains-kotlin-android" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+secret-gradle-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secret-gradle-plugin" }
+
+[bundles]
+
