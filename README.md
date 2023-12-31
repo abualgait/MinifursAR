@@ -16,11 +16,6 @@ MinifursAR is a cutting-edge project that showcases the fusion of Augmented Real
 
 - **NavHost and Navigation in Compose**: Offering a seamless navigation experience within the Compose framework, making it intuitive for users to explore different AR scenes effortlessly. 🚀
 
-
-## License 📜
-
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details. 📄
-
 ## Acknowledgments 🙌
 
 Special thanks to the open-source community and the contributors to the libraries and tools used in this project. 👏
